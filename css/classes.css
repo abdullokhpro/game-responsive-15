@@ -1,0 +1,55 @@
+/* display flex  */
+
+.df {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section titles  */
+
+.st {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+/* section subtitles  */
+
+.ss {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+/* general buttons  */
+
+.btn {
+    padding: 21px 34px;
+    background-color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+/* secton top  */
+
+.section-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 14px;
+}

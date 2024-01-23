@@ -1,0 +1,35 @@
+#hero {
+    padding-top: 195px;
+    padding-bottom: 250px;
+    color: #fff;
+    background: url(../images/hero-img.png) no-repeat center right;
+}
+
+.section-subtitle {
+    text-align: left;
+    gap: 10px;
+}
+
+.hero__title {
+    max-width: 656px;
+    margin-bottom: 45px;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.hero__description {
+    max-width: 615px;
+    margin-bottom: 53px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999;
+}
+
+.hero__btn__second {
+    border: none;
+    background-color: transparent;
+}

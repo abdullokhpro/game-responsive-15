@@ -1,0 +1,26 @@
+#news {
+    padding: 85px 0;
+    background-color: #141820;
+}
+
+#news .container {
+    background-image: url(../images/news-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+
+.news__title {
+    max-width: 684px;
+    margin-bottom: 38px;
+    text-align: left;
+}
+
+.news__description {
+    max-width: 721px;
+    margin-bottom: 54px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.80);
+}

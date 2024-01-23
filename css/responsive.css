@@ -1,0 +1,125 @@
+@media (min-width: 1440px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #hero {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    #hero {
+        background: none; 
+    }
+}
+
+@media (max-width: 1060px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+
+    .gaming__card {
+        width: 100%;
+    }
+
+    #gaming {
+        background-image: url(../images/gaming-bg-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #hero {
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+
+    .nav__btn{
+        padding: 12px 18px;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .gaming__title {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    #gaming {
+       padding-top: 30px;
+       padding-bottom: 30px;
+    }
+
+    #news {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 490px) {
+    .nav__btn {
+       display: none;
+    }
+
+    .btn {
+        padding: 12px 18px;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .hero__title {
+        max-width: fit-content;
+        font-size: 28px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .hero__description {
+        max-width: fit-content;
+        font-size: 14px;
+    }
+
+    .hero__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gaming__description {
+        max-width: fit-content;
+        font-size: 14px;
+    }
+
+    .news__title {
+        max-width: fit-content;
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .news__description {
+        max-width: fit-content;
+        font-size: 14px;
+    }
+
+    .news__description {
+        max-width: fit-content;
+        font-size: 14px;
+        color: #fff;
+    }
+}

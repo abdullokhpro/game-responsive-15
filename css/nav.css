@@ -1,0 +1,73 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.nav__list {
+    gap: 60px;
+    color: #fff;
+}
+
+.nav__item__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.nav__item__link:hover {
+    color: #FAC422;
+}
+
+.nav__right {
+    gap: 24px;
+}
+
+
+.nav__btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+.nav__btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.nav__menu {
+    display: none;
+}
+
+.navbar-shrink {
+    box-shadow: 0px 0px 20px 2px var(--primary-color);
+}
+
+#mode-btn {
+    background-color: transparent;
+}
+
+#mode-btn:hover {
+    opacity: 0.6;
+}
+
+.light #hero, .light .nav, .light #news {
+    background-color: white;
+}
+
+.light #hero *,
+.light .nav *,
+.light #news * {
+    color: #000;
+}
+
+/* navbar responsive  */
